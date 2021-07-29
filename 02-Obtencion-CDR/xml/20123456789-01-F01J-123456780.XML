@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+           <ext:UBLExtensions>
+              <ext:UBLExtension>
+                 <ext:ExtensionContent><ds:Signature Id="SignatureSP"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>Fd8MSoIOZYKJkSyHTAFHtUfuotQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>XWmJuseXvNeAgwhFjhD1IxuL8KAEvwIyulUeD4RltvJSLW/a0MJpI1bnKdd4tKO5h9GldAXA6HfUmPuVsbYI3TKC/RUX2+e3z4C6la4i8OlnzUgSrd6Pgn6xbL9g35NiiyoJeuVoNlLKJ2lLZWyVoh9qtOoANndjIh82HHQgeGy5WvMCz1eihd/K/H8mhwRhMu4xUTD0Kuq0lxJoo0e+OT8sZBSooT1utXKAHyjvgbBXQBh008TBSWpBZ1fEVXtE2+Qc/Vj6mGWs2vNO3+WRoePviNROeIA1Mzdix2BmOQUYlpSFEuRI/6p1zmVbBO/E6cN8n2JUogcu6RcMg+HjXg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIE+DCCA+CgAwIBAgIJALIlnqLtL0V/MA0GCSqGSIb3DQEBBQUAMIIBDTEbMBkGCgmSJomT8ixkARkWC0xMQU1BLlBFIFNBMQswCQYDVQQGEwJQRTENMAsGA1UECAwETElNQTENMAsGA1UEBwwETElNQTEYMBYGA1UECgwPVFUgRU1QUkVTQSBTLkEuMUUwQwYDVQQLDDxETkkgOTk5OTk5OSBSVUMgMjAxMjM0NTY3ODkgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xRDBCBgNVBAMMO05PTUJSRSBSRVBSRVNFTlRBTlRFIExFR0FMIC0gQ0VSVElGSUNBRE8gUEFSQSBERU1PU1RSQUNJw5NOMRwwGgYJKoZIhvcNAQkBFg1kZW1vQGxsYW1hLnBlMB4XDTIxMDcyMjAwMzAxNloXDTIzMDcyMjAwMzAxNlowggENMRswGQYKCZImiZPyLGQBGRYLTExBTUEuUEUgU0ExCzAJBgNVBAYTAlBFMQ0wCwYDVQQIDARMSU1BMQ0wCwYDVQQHDARMSU1BMRgwFgYDVQQKDA9UVSBFTVBSRVNBIFMuQS4xRTBDBgNVBAsMPEROSSA5OTk5OTk5IFJVQyAyMDEyMzQ1Njc4OSAtIENFUlRJRklDQURPIFBBUkEgREVNT1NUUkFDScOTTjFEMEIGA1UEAww7Tk9NQlJFIFJFUFJFU0VOVEFOVEUgTEVHQUwgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xHDAaBgkqhkiG9w0BCQEWDWRlbW9AbGxhbWEucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCbDuaRqWt20xQueSxX3Li0VmnkS3rKS+MmjuDiY1mKsvnKNKcHz3jQRK6nOf7sWQaU/SABdKombZeYKYAUOw6APWEa5WoHHMkUn7KvBkTqIbe6lLri7mtCvx8sgeK/zj8C2lT/zH9q4cfzZci5AyOiRUqGL5C35ZZo2MYI2K68z+TDJrxxnXr9ufXN/j3rq86ewWo2WzJWEsFzp9Yv+8I2O1bBJ+JPvvQ8xD/YtCV9FG9StD7cGII9GktOMaoophg35ByzInKeGO6SHjIpsfJ29qDyGNsOzQsCNNU6XuvEmdJZoDznYlt5INNDkq231V0RE+xmayxJQZT1yQfi3NVAgMBAAGjVzBVMB0GA1UdDgQWBBST6PdbACUxS6VNA6YXylLuvbAjVDAfBgNVHSMEGDAWgBST6PdbACUxS6VNA6YXylLuvbAjVDATBgNVHSUEDDAKBggrBgEFBQcDATANBgkqhkiG9w0BAQUFAAOCAQEAElysN4c0fmqGpaF+sXSXXDo1GyxX5kRL9rumxfvvfx8OTx4cXOlxzKV9bvWYMQAssEKltyZAcTmeneuaq/0mAvctXPyCE9CQj2o1w+AOT7MK46fJOxCw0hWu/LriTtnkBQB70pZQl4o4YQQWsNLpukciQTjZdZAemxVH4skpR3BnW5llzlXLC6NYBvxrt5MbsDJFyNoUnMhvXt88m/3u2+XS6xM1loISNaX5JXFtlAf8v8yYhBzktNvrOxrvc+UnfVMmC0Su86P2QLcAdGeTuHpFQ2VR/fd0hmbSEVmCvoy9Q/Iw4WybETm9RI5osU60XeSyU3bBRmpdQ1bgu+WT1A==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+              </ext:UBLExtension>
+           </ext:UBLExtensions>
+           <cbc:UBLVersionID>2.1</cbc:UBLVersionID>
+           <cbc:CustomizationID>2.0</cbc:CustomizationID>
+           <cbc:ID>F01J-123456780</cbc:ID>
+           <cbc:IssueDate>2021-07-21</cbc:IssueDate>
+           <cbc:IssueTime>00:00:00</cbc:IssueTime>
+           <cbc:DueDate>2021-07-21</cbc:DueDate>
+           <cbc:InvoiceTypeCode listID="0101">01</cbc:InvoiceTypeCode>
+           <cbc:Note languageLocaleID="1000"><![CDATA[CIENTO OCHENTA  CON 00/100 SOLES]]></cbc:Note>
+           <cbc:DocumentCurrencyCode>PEN</cbc:DocumentCurrencyCode>
+           <cac:Signature>
+              <cbc:ID>20123456789</cbc:ID>
+              <cbc:Note><![CDATA[EMISOR S.A]]></cbc:Note>
+              <cac:SignatoryParty>
+                 <cac:PartyIdentification>
+                    <cbc:ID>20123456789</cbc:ID>
+                 </cac:PartyIdentification>
+                 <cac:PartyName>
+                    <cbc:Name><![CDATA[EMPRESA EMISORA S.A.]]></cbc:Name>
+                 </cac:PartyName>
+              </cac:SignatoryParty>
+              <cac:DigitalSignatureAttachment>
+                 <cac:ExternalReference>
+                    <cbc:URI>#SIGN-EMPRESA</cbc:URI>
+                 </cac:ExternalReference>
+              </cac:DigitalSignatureAttachment>
+           </cac:Signature>
+           <cac:AccountingSupplierParty>
+              <cac:Party>
+                 <cac:PartyIdentification>
+                    <cbc:ID schemeID="6">20123456789</cbc:ID>
+                 </cac:PartyIdentification>
+                 <cac:PartyName>
+                    <cbc:Name><![CDATA[EMISOR S.A]]></cbc:Name>
+                 </cac:PartyName>
+                 <cac:PartyLegalEntity>
+                    <cbc:RegistrationName><![CDATA[EMPRESA EMISORA S.A.]]></cbc:RegistrationName>
+                    <cac:RegistrationAddress>
+                       <cbc:ID>010101</cbc:ID>
+                       <cbc:AddressTypeCode>0000</cbc:AddressTypeCode>
+                       <cbc:CitySubdivisionName>NONE</cbc:CitySubdivisionName>
+                       <cbc:CityName>LIMA</cbc:CityName>
+                       <cbc:CountrySubentity>LIMA</cbc:CountrySubentity>
+                       <cbc:District>LIMA</cbc:District>
+                       <cac:AddressLine>
+                          <cbc:Line><![CDATA[SURCO - LIMA]]></cbc:Line>
+                       </cac:AddressLine>
+                       <cac:Country>
+                          <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+                       </cac:Country>
+                    </cac:RegistrationAddress>
+                 </cac:PartyLegalEntity>
+              </cac:Party>
+           </cac:AccountingSupplierParty>
+           <cac:AccountingCustomerParty>
+              <cac:Party>
+                 <cac:PartyIdentification>
+                    <cbc:ID schemeID="6">10123456789</cbc:ID>
+                 </cac:PartyIdentification>
+                 <cac:PartyLegalEntity>
+                    <cbc:RegistrationName><![CDATA[PEPITO DOMINGEZ]]></cbc:RegistrationName>
+                    <cac:RegistrationAddress>
+                       <cac:AddressLine>
+                          <cbc:Line><![CDATA[LIMA VIRTUAL]]></cbc:Line>
+                       </cac:AddressLine>
+                       <cac:Country>
+                          <cbc:IdentificationCode>PE</cbc:IdentificationCode>
+                       </cac:Country>
+                    </cac:RegistrationAddress>
+                 </cac:PartyLegalEntity>
+              </cac:Party>
+           </cac:AccountingCustomerParty>
+
+           <cac:PaymentTerms>
+               <cbc:ID>FormaPago</cbc:ID>
+               <cbc:PaymentMeansID>Contado</cbc:PaymentMeansID>
+           </cac:PaymentTerms>
+
+
+           <cac:TaxTotal>
+              <cbc:TaxAmount currencyID="PEN">12.2</cbc:TaxAmount><cac:TaxSubtotal>
+                     <cbc:TaxableAmount currencyID="PEN">67.8</cbc:TaxableAmount>
+                     <cbc:TaxAmount currencyID="PEN">12.2</cbc:TaxAmount>
+                     <cac:TaxCategory>
+                        <cac:TaxScheme>
+                           <cbc:ID>1000</cbc:ID>
+                           <cbc:Name>IGV</cbc:Name>
+                           <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                        </cac:TaxScheme>
+                     </cac:TaxCategory>
+                  </cac:TaxSubtotal><cac:TaxSubtotal>
+                    <cbc:TaxableAmount currencyID="PEN">50</cbc:TaxableAmount>
+                    <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+                    <cac:TaxCategory>
+                       <cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">E</cbc:ID>
+                       <cac:TaxScheme>
+                          <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">9997</cbc:ID>
+                          <cbc:Name>EXO</cbc:Name>
+                          <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                       </cac:TaxScheme>
+                    </cac:TaxCategory>
+                 </cac:TaxSubtotal><cac:TaxSubtotal>
+                    <cbc:TaxableAmount currencyID="PEN">50</cbc:TaxableAmount>
+                    <cbc:TaxAmount currencyID="PEN">0.00</cbc:TaxAmount>
+                    <cac:TaxCategory>
+                       <cbc:ID schemeID="UN/ECE 5305" schemeName="Tax Category Identifier" schemeAgencyName="United Nations Economic Commission for Europe">E</cbc:ID>
+                       <cac:TaxScheme>
+                          <cbc:ID schemeID="UN/ECE 5153" schemeAgencyID="6">9998</cbc:ID>
+                          <cbc:Name>INA</cbc:Name>
+                          <cbc:TaxTypeCode>FRE</cbc:TaxTypeCode>
+                       </cac:TaxScheme>
+                    </cac:TaxCategory>
+                 </cac:TaxSubtotal></cac:TaxTotal>
+           <cac:LegalMonetaryTotal>
+              <cbc:LineExtensionAmount currencyID="PEN">167.8</cbc:LineExtensionAmount>
+              <cbc:TaxInclusiveAmount currencyID="PEN">180</cbc:TaxInclusiveAmount>
+              <cbc:PayableAmount currencyID="PEN">180</cbc:PayableAmount>
+           </cac:LegalMonetaryTotal><cac:InvoiceLine>
+                  <cbc:ID>1</cbc:ID>
+                  <cbc:InvoicedQuantity unitCode="NIU">10</cbc:InvoicedQuantity>
+                  <cbc:LineExtensionAmount currencyID="PEN">67.8</cbc:LineExtensionAmount>
+                  <cac:PricingReference>
+                     <cac:AlternativeConditionPrice>
+                        <cbc:PriceAmount currencyID="PEN">8</cbc:PriceAmount>
+                        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+                     </cac:AlternativeConditionPrice>
+                  </cac:PricingReference>
+                  <cac:TaxTotal>
+                     <cbc:TaxAmount currencyID="PEN">12.2</cbc:TaxAmount>
+                     <cac:TaxSubtotal>
+                        <cbc:TaxableAmount currencyID="PEN">67.8</cbc:TaxableAmount>
+                        <cbc:TaxAmount currencyID="PEN">12.2</cbc:TaxAmount>
+                        <cac:TaxCategory>
+                           <cbc:Percent>18</cbc:Percent>
+                           <cbc:TaxExemptionReasonCode>10</cbc:TaxExemptionReasonCode>
+                           <cac:TaxScheme>
+                              <cbc:ID>1000</cbc:ID>
+                              <cbc:Name>IGV</cbc:Name>
+                              <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                           </cac:TaxScheme>
+                        </cac:TaxCategory>
+                     </cac:TaxSubtotal>
+                  </cac:TaxTotal>
+                  <cac:Item>
+                     <cbc:Description><![CDATA[ACEITE]]></cbc:Description>
+                     <cac:SellersItemIdentification>
+                        <cbc:ID>COD01</cbc:ID>
+                     </cac:SellersItemIdentification>
+                  </cac:Item>
+                  <cac:Price>
+                     <cbc:PriceAmount currencyID="PEN">6.78</cbc:PriceAmount>
+                  </cac:Price>
+               </cac:InvoiceLine><cac:InvoiceLine>
+                  <cbc:ID>2</cbc:ID>
+                  <cbc:InvoicedQuantity unitCode="NIU">1</cbc:InvoicedQuantity>
+                  <cbc:LineExtensionAmount currencyID="PEN">50</cbc:LineExtensionAmount>
+                  <cac:PricingReference>
+                     <cac:AlternativeConditionPrice>
+                        <cbc:PriceAmount currencyID="PEN">50</cbc:PriceAmount>
+                        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+                     </cac:AlternativeConditionPrice>
+                  </cac:PricingReference>
+                  <cac:TaxTotal>
+                     <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount>
+                     <cac:TaxSubtotal>
+                        <cbc:TaxableAmount currencyID="PEN">50</cbc:TaxableAmount>
+                        <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount>
+                        <cac:TaxCategory>
+                           <cbc:Percent>18</cbc:Percent>
+                           <cbc:TaxExemptionReasonCode>20</cbc:TaxExemptionReasonCode>
+                           <cac:TaxScheme>
+                              <cbc:ID>9997</cbc:ID>
+                              <cbc:Name>EXO</cbc:Name>
+                              <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                           </cac:TaxScheme>
+                        </cac:TaxCategory>
+                     </cac:TaxSubtotal>
+                  </cac:TaxTotal>
+                  <cac:Item>
+                     <cbc:Description><![CDATA[LIBRO]]></cbc:Description>
+                     <cac:SellersItemIdentification>
+                        <cbc:ID>COD02</cbc:ID>
+                     </cac:SellersItemIdentification>
+                  </cac:Item>
+                  <cac:Price>
+                     <cbc:PriceAmount currencyID="PEN">50</cbc:PriceAmount>
+                  </cac:Price>
+               </cac:InvoiceLine><cac:InvoiceLine>
+                  <cbc:ID>3</cbc:ID>
+                  <cbc:InvoicedQuantity unitCode="NIU">1</cbc:InvoicedQuantity>
+                  <cbc:LineExtensionAmount currencyID="PEN">50</cbc:LineExtensionAmount>
+                  <cac:PricingReference>
+                     <cac:AlternativeConditionPrice>
+                        <cbc:PriceAmount currencyID="PEN">50</cbc:PriceAmount>
+                        <cbc:PriceTypeCode>01</cbc:PriceTypeCode>
+                     </cac:AlternativeConditionPrice>
+                  </cac:PricingReference>
+                  <cac:TaxTotal>
+                     <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount>
+                     <cac:TaxSubtotal>
+                        <cbc:TaxableAmount currencyID="PEN">50</cbc:TaxableAmount>
+                        <cbc:TaxAmount currencyID="PEN">0</cbc:TaxAmount>
+                        <cac:TaxCategory>
+                           <cbc:Percent>18</cbc:Percent>
+                           <cbc:TaxExemptionReasonCode>30</cbc:TaxExemptionReasonCode>
+                           <cac:TaxScheme>
+                              <cbc:ID>9998</cbc:ID>
+                              <cbc:Name>INA</cbc:Name>
+                              <cbc:TaxTypeCode>FRE</cbc:TaxTypeCode>
+                           </cac:TaxScheme>
+                        </cac:TaxCategory>
+                     </cac:TaxSubtotal>
+                  </cac:TaxTotal>
+                  <cac:Item>
+                     <cbc:Description><![CDATA[TOMATE]]></cbc:Description>
+                     <cac:SellersItemIdentification>
+                        <cbc:ID>COD03</cbc:ID>
+                     </cac:SellersItemIdentification>
+                  </cac:Item>
+                  <cac:Price>
+                     <cbc:PriceAmount currencyID="PEN">50</cbc:PriceAmount>
+                  </cac:Price>
+               </cac:InvoiceLine></Invoice>
